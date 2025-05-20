@@ -1,14 +1,6 @@
 # react-playful-avatar
 
-<div align="center">
-    ![28bca1599725629bd5775cad49c80c272e7aec15 (1)](https://github.com/user-attachments/assets/5fefec22-92aa-47c2-bf4e-9721da726f1b)
-
-    <a href="https://www.drawkit.com/illustrations/playful-avatar-creator">
-        <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/28bca1599725629bd5775cad49c80c272e7aec15.png" 
-        width="600" alt="imagewall" />
-    </a>
-</div>
-
+![28bca1599725629bd5775cad49c80c272e7aec15 (1)](https://github.com/user-attachments/assets/0814b609-acc7-44ee-bf4e-1bc92999c64e)
 
 
 ## Online Avatar Maker 
