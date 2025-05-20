@@ -1,0 +1,46 @@
+{
+  "name": "react-playful-avatar",
+  "version": "1.0.1",
+  "description": "Make Playful Avatar with this avatar maker",
+  "repository": {
+    "url": "https://github.com/romubutun/react-playful-avatar"
+  },
+  "homepage": "https://github.com/romubutun/react-playful-avatar#readme",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "react",
+    "avatar"
+  ],
+  "author": "romubuntu",
+  "license": "MIT",
+  "type": "module",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
