@@ -1,8 +1,8 @@
-# react-playful-avatar 1.0.1
+# react-playful-avatar
 
 <div align="center">
     <a href="https://www.drawkit.com/illustrations/playful-avatar-creator">
-        <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/28bca1599725629bd5775cad49c80c272e7aec15" 
+        <img src="https://s3-figma-hubfile-images-production.figma.com/hub/file/carousel/img/28bca1599725629bd5775cad49c80c272e7aec15.png" 
         width="600" alt="imagewall" />
     </a>
 </div>
