@@ -7,6 +7,21 @@ export type TAvatarElements = {
     haircut:TAvatarElement[],
 }
 
+export type TPlayfulAvatarProps =  {
+    style:React.CSSProperties,
+    seed?:string,
+    backgroundColor?:string,
+    backgroundShape?:TAvatarBackgroundShape,
+    accessory?:TAvatarAccessory,
+    eyes?:TAvatarEyes,
+    face?:TAvatarFace,
+    faceColor?:string,
+    mouth?:TAvatarMouth,
+    outfit?:TAvatarOutfit,
+    haircut?:TAvatarHaircut,
+    haircutColor?:string,
+}
+
 
  
 export type TAvatarElement = {

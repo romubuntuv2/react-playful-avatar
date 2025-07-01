@@ -7,28 +7,15 @@ import { MouthComposer } from './avatarElements/Mouth'
 import ColoredComposer from './composers/ColoredComposer'
 import { FaceComposer } from './avatarElements/Face'
 import { HairComposer } from './avatarElements/Hair'
-import type {TAvatarAccessory, TAvatarBackgroundShape, TAvatarEyes, TAvatarFace, TAvatarHaircut, TAvatarMouth, TAvatarOutfit } from './types'
+import type {TAvatarAccessory, TAvatarBackgroundShape, TAvatarEyes, TAvatarFace, TAvatarHaircut, TAvatarMouth, TAvatarOutfit, TPlayfulAvatarProps } from './types'
 import { genConfig } from './utils/avatarUtils'
 
-interface PlayfulAvatarProps {
-    style:React.CSSProperties,
-    seed?:string,
-    backgroundColor?:string,
-    backgroundShape?:TAvatarBackgroundShape,
-    accessory?:TAvatarAccessory,
-    eyes?:TAvatarEyes,
-    face?:TAvatarFace,
-    faceColor?:string,
-    mouth?:TAvatarMouth,
-    outfit?:TAvatarOutfit,
-    haircut?:TAvatarHaircut,
-    haircutColor?:string,
-}
+
 
 
 const PlayfulAvatar = ((
     {style, backgroundColor, backgroundShape, accessory, eyes, face, faceColor, mouth, outfit, haircut, haircutColor
-    }:PlayfulAvatarProps
+    }:TPlayfulAvatarProps
 ) => {
 
     const config = useMemo(()=> {
