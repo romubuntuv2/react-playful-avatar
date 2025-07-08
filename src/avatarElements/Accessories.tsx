@@ -141,31 +141,31 @@ const circleEarring = (alone:boolean) => {
     </g>
     <defs>
     <linearGradient id="paint0_linear_26_635" x1="467.057" y1="1053.29" x2="467.057" y2="673.537" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FF7300"/>
-    <stop offset="0.1086" stop-color="#FF8D08"/>
-    <stop offset="0.2899" stop-color="#FFB214"/>
-    <stop offset="0.4716" stop-color="#FFCF1E"/>
-    <stop offset="0.6514" stop-color="#FFE325"/>
-    <stop offset="0.8286" stop-color="#FFF029"/>
-    <stop offset="1" stop-color="#FFF42A"/>
+    <stop stopColor="#FF7300"/>
+    <stop offset="0.1086" stopColor="#FF8D08"/>
+    <stop offset="0.2899" stopColor="#FFB214"/>
+    <stop offset="0.4716" stopColor="#FFCF1E"/>
+    <stop offset="0.6514" stopColor="#FFE325"/>
+    <stop offset="0.8286" stopColor="#FFF029"/>
+    <stop offset="1" stopColor="#FFF42A"/>
     </linearGradient>
     <linearGradient id="paint1_linear_26_635" x1="467.058" y1="661.544" x2="467.058" y2="704.725" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FF7300"/>
-    <stop offset="0.1086" stop-color="#FF8D08"/>
-    <stop offset="0.2899" stop-color="#FFB214"/>
-    <stop offset="0.4716" stop-color="#FFCF1E"/>
-    <stop offset="0.6514" stop-color="#FFE325"/>
-    <stop offset="0.8286" stop-color="#FFF029"/>
-    <stop offset="1" stop-color="#FFF42A"/>
+    <stop stopColor="#FF7300"/>
+    <stop offset="0.1086" stopColor="#FF8D08"/>
+    <stop offset="0.2899" stopColor="#FFB214"/>
+    <stop offset="0.4716" stopColor="#FFCF1E"/>
+    <stop offset="0.6514" stopColor="#FFE325"/>
+    <stop offset="0.8286" stopColor="#FFF029"/>
+    <stop offset="1" stopColor="#FFF42A"/>
     </linearGradient>
     <linearGradient id="paint2_linear_26_635" x1="907.976" y1="1053.29" x2="907.976" y2="673.538" gradientUnits="userSpaceOnUse">
-    <stop stop-color="#FF7300"/>
-    <stop offset="0.1086" stop-color="#FF8D08"/>
-    <stop offset="0.2899" stop-color="#FFB214"/>
-    <stop offset="0.4716" stop-color="#FFCF1E"/>
-    <stop offset="0.6514" stop-color="#FFE325"/>
-    <stop offset="0.8286" stop-color="#FFF029"/>
-    <stop offset="1" stop-color="#FFF42A"/>
+    <stop stopColor="#FF7300"/>
+    <stop offset="0.1086" stopColor="#FF8D08"/>
+    <stop offset="0.2899" stopColor="#FFB214"/>
+    <stop offset="0.4716" stopColor="#FFCF1E"/>
+    <stop offset="0.6514" stopColor="#FFE325"/>
+    <stop offset="0.8286" stopColor="#FFF029"/>
+    <stop offset="1" stopColor="#FFF42A"/>
     </linearGradient>
     </defs>
     </>
