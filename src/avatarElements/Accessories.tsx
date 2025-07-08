@@ -52,7 +52,7 @@ const earphone = (alone:boolean) => {
 const earring = (alone:boolean) => {
     const transform = alone?"scale(1.8) translate(-320,-380)":""
     return <g transform={transform}  mask="url(#mask0_26_635)">
-    <path d="M467.544 705.467V779.134" stroke="#FFDE55" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M467.544 705.467V779.134" stroke="#FFDE55" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     <path d="M526.044 877.933C514.344 889.633 498.311 897 480.111 897C445.011 897 415.978 868.4 415.978 832.867C415.978 797.767 444.578 768.734 480.111 768.734C497.878 768.734 514.344 776.1 526.044 787.8C518.244 783.467 509.578 780.867 500.044 780.867C471.444 780.867 448.044 804.267 448.044 832.867C448.044 861.467 471.444 884.867 500.044 884.867C509.578 885.3 518.244 882.7 526.044 877.933Z" fill="#FFDE55"/>
     <path d="M467.544 858.867C481.664 858.867 493.111 847.42 493.111 833.3C493.111 819.18 481.664 807.734 467.544 807.734C453.424 807.734 441.978 819.18 441.978 833.3C441.978 847.42 453.424 858.867 467.544 858.867Z" fill="#FF6B57"/>
     <path d="M961.978 788.667C954.178 784.334 945.511 781.734 935.978 781.734C929.045 781.734 922.978 783.034 916.911 785.634C917.778 780.434 919.078 775.234 919.511 770.034C936.411 770.467 951.145 777.4 961.978 788.667Z" fill="#FFDE55"/>
@@ -66,29 +66,29 @@ const futuristicGlasses = (alone:boolean) => {
     <path opacity="0.6" d="M582.174 675.397C582.174 675.397 588.241 688.397 606.441 690.13C624.641 691.864 845.641 641.597 853.441 642.897C861.241 644.197 874.241 648.964 874.241 648.964L925.374 681.464L926.241 658.93C926.241 658.93 897.641 623.397 827.874 626.864C758.107 630.33 582.174 675.397 582.174 675.397Z" fill="#B7AEA9"/>
     <path d="M592.574 469.997C575.674 469.563 561.374 482.997 561.374 499.897V539.33C561.374 559.263 545.341 575.73 524.974 575.73H510.674L524.974 601.297C544.907 601.297 561.374 617.33 561.374 637.697V651.563C561.374 670.197 577.841 684.063 596.041 681.463L837.841 643.763C843.041 642.897 847.807 642.897 853.007 643.33L854.307 478.23L592.574 469.997Z" fill="#5E4949"/>
     <path d="M944.441 480.397L854.741 477.797L853.441 642.897C860.808 643.763 867.741 645.497 874.241 648.963L922.774 673.23C935.341 679.297 950.075 671.063 951.375 657.197L964.808 502.93C965.674 491.23 956.574 480.83 944.441 480.397Z" fill="#423232"/>
-    <path d="M657.14 538.897L908.04 544.53C921.907 544.963 932.74 557.097 931.007 570.963C929.707 583.097 919.74 592.197 907.607 592.197H656.707C643.274 592.197 632.44 580.93 632.874 567.497L633.307 561.863C633.74 548.43 644.574 538.897 657.14 538.897Z" fill="#E26076" stroke="#423232" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M657.14 538.897L908.04 544.53C921.907 544.963 932.74 557.097 931.007 570.963C929.707 583.097 919.74 592.197 907.607 592.197H656.707C643.274 592.197 632.44 580.93 632.874 567.497L633.307 561.863C633.74 548.43 644.574 538.897 657.14 538.897Z" fill="#E26076" stroke="#423232" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     <path d="M688.341 573.996H664.507C659.741 573.996 655.841 570.096 655.841 565.33C655.841 560.563 659.741 556.663 664.507 556.663H688.341C693.107 556.663 697.007 560.563 697.007 565.33C696.574 570.096 693.107 573.996 688.341 573.996Z" fill="white"/>
     </g>
 }
 const glasses = (alone:boolean) => {
     const transform = alone?"scale(1.8) translate(-370,-260)":""
     return <g transform={transform} mask="url(#mask0_26_635)">
-    <path d="M749.232 669.067H648.266C621.832 669.067 600.599 647.834 600.599 621.4V580.234C600.599 553.8 621.832 532.567 648.266 532.567H749.232C775.666 532.567 796.899 553.8 796.899 580.234V621.4C796.899 647.834 775.232 669.067 749.232 669.067Z" stroke="#423232" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M923.432 532.567H873.599C856.266 532.567 841.966 546.867 841.966 564.2V601.9C848.032 623.567 856.699 644.367 869.699 663C870.999 663 872.299 663.434 873.599 663.434H923.432C940.766 663.434 955.066 649.134 955.066 631.8V564.2C955.499 546.434 941.199 532.567 923.432 532.567Z" stroke="#423232" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M796.899 572C811.633 570.267 830.266 568.967 845.866 570.7" stroke="#423232" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M600.599 575.034L500.066 578.5" stroke="#423232" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M749.232 669.067H648.266C621.832 669.067 600.599 647.834 600.599 621.4V580.234C600.599 553.8 621.832 532.567 648.266 532.567H749.232C775.666 532.567 796.899 553.8 796.899 580.234V621.4C796.899 647.834 775.232 669.067 749.232 669.067Z" stroke="#423232" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M923.432 532.567H873.599C856.266 532.567 841.966 546.867 841.966 564.2V601.9C848.032 623.567 856.699 644.367 869.699 663C870.999 663 872.299 663.434 873.599 663.434H923.432C940.766 663.434 955.066 649.134 955.066 631.8V564.2C955.499 546.434 941.199 532.567 923.432 532.567Z" stroke="#423232" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M796.899 572C811.633 570.267 830.266 568.967 845.866 570.7" stroke="#423232" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M600.599 575.034L500.066 578.5" stroke="#423232" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </g>
 }
 const mask = (alone:boolean) => {
     const transform = alone?"scale(1.8) translate(-350,-420)":""
     return <g transform={transform} mask="url(#mask0_26_635)">
     <path d="M877.818 658.314C866.118 644.014 850.951 634.047 832.751 633.614C813.685 633.181 783.785 637.514 753.885 661.347C714.885 692.547 636.885 687.781 606.118 684.747C597.451 683.881 589.218 688.214 585.318 696.014C576.651 713.347 564.951 749.314 570.585 807.381C577.951 886.681 642.518 958.614 733.518 952.547C853.118 945.181 922.885 848.981 927.218 720.281C926.351 684.747 905.118 692.114 877.818 658.314Z" fill="white"/>
-    <path d="M717.919 684.748C717.919 684.748 900.352 767.081 915.952 707.281" stroke="#EDF3F4" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M644.252 743.682C644.252 743.682 828.419 848.982 911.185 791.782" stroke="#EDF3F4" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M637.752 818.215C637.752 818.215 732.652 903.581 869.152 872.815" stroke="#EDF3F4" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M662.885 692.114C662.885 692.114 644.685 717.247 637.319 783.547C628.652 863.281 666.352 929.581 666.352 929.581" stroke="#EDF3F4" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M602.651 695.581C602.651 695.581 552.818 660.914 517.718 601.114" stroke="white" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M492.152 735.881C502.118 768.381 526.818 821.248 589.218 868.915" stroke="white" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M717.919 684.748C717.919 684.748 900.352 767.081 915.952 707.281" stroke="#EDF3F4" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M644.252 743.682C644.252 743.682 828.419 848.982 911.185 791.782" stroke="#EDF3F4" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M637.752 818.215C637.752 818.215 732.652 903.581 869.152 872.815" stroke="#EDF3F4" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M662.885 692.114C662.885 692.114 644.685 717.247 637.319 783.547C628.652 863.281 666.352 929.581 666.352 929.581" stroke="#EDF3F4" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M602.651 695.581C602.651 695.581 552.818 660.914 517.718 601.114" stroke="white" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M492.152 735.881C502.118 768.381 526.818 821.248 589.218 868.915" stroke="white" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </g>
 }
 const stylishGlasses = (alone:boolean) => {
@@ -100,10 +100,10 @@ const stylishGlasses = (alone:boolean) => {
     <path opacity="0.3" d="M763.966 548.279L642.2 537.012C621.833 535.279 604.5 553.912 604.5 577.312V614.145C604.5 641.012 617.5 663.979 636.566 675.679L763.966 548.279Z" fill="#FE9DAB"/>
     <path opacity="0.3" d="M941.632 543.945L865.365 553.912C855.399 555.212 848.032 569.512 848.899 585.979L850.199 624.545C850.632 631.912 852.366 638.845 855.399 644.045C860.599 652.712 867.099 659.212 874.032 663.545L964.599 572.979C962.866 555.645 952.899 542.645 941.632 543.945Z" fill="#FE9DAB"/>
     <path opacity="0.43" d="M874.466 663.979C878.366 666.146 881.832 667.879 886.166 668.746L923.866 676.112C945.966 680.446 965.466 651.412 965.466 613.712V580.779C965.466 578.179 965.466 576.012 965.032 573.846L874.466 663.979Z" fill="#FE9DAB"/>
-    <path d="M763.966 548.279L642.2 537.012C621.833 535.279 604.5 553.912 604.5 577.312V614.145C604.5 655.745 635.7 687.812 670.8 683.045L731.466 675.245C749.666 672.645 766.566 663.545 779.566 648.379C784.766 642.745 787.8 634.945 788.233 626.712L790.4 583.812C791.266 565.179 779.566 549.579 763.966 548.279Z" stroke="white" stroke-width="14.0292" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M865.799 554.345L942.066 544.379C954.632 542.645 965.466 559.545 965.466 580.779V613.712C965.466 650.979 945.965 680.012 923.866 676.112L886.166 668.745C874.899 666.579 864.066 657.912 856.266 644.479C853.232 639.279 851.066 632.345 851.066 624.979L849.766 586.412C848.466 569.945 855.832 555.645 865.799 554.345Z" stroke="white" stroke-width="14.0292" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M604.499 581.645L504.399 579.479" stroke="white" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M790.399 584.679C790.399 584.679 842.833 574.279 849.333 584.679" stroke="white" stroke-width="14.0292" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M763.966 548.279L642.2 537.012C621.833 535.279 604.5 553.912 604.5 577.312V614.145C604.5 655.745 635.7 687.812 670.8 683.045L731.466 675.245C749.666 672.645 766.566 663.545 779.566 648.379C784.766 642.745 787.8 634.945 788.233 626.712L790.4 583.812C791.266 565.179 779.566 549.579 763.966 548.279Z" stroke="white" strokeWidth="14.0292" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M865.799 554.345L942.066 544.379C954.632 542.645 965.466 559.545 965.466 580.779V613.712C965.466 650.979 945.965 680.012 923.866 676.112L886.166 668.745C874.899 666.579 864.066 657.912 856.266 644.479C853.232 639.279 851.066 632.345 851.066 624.979L849.766 586.412C848.466 569.945 855.832 555.645 865.799 554.345Z" stroke="white" strokeWidth="14.0292" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M604.499 581.645L504.399 579.479" stroke="white" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M790.399 584.679C790.399 584.679 842.833 574.279 849.333 584.679" stroke="white" strokeWidth="14.0292" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </g> 
 }
 const moustache = (alone:boolean) => {
@@ -123,13 +123,13 @@ const maskGoogle = (alone:boolean) => {
     <path d="M714.134 893.967C753.862 893.967 786.067 861.761 786.067 822.034C786.067 782.306 753.862 750.1 714.134 750.1C674.406 750.1 642.201 782.306 642.201 822.034C642.201 861.761 674.406 893.967 714.134 893.967Z" fill="#E8E8E8"/>
     <path d="M689 898.3C728.728 898.3 760.934 866.095 760.934 826.367C760.934 786.639 728.728 754.434 689 754.434C649.273 754.434 617.067 786.639 617.067 826.367C617.067 866.095 649.273 898.3 689 898.3Z" fill="white"/>
     <path d="M685.101 871.434C709.99 871.434 730.167 851.257 730.167 826.367C730.167 801.477 709.99 781.3 685.101 781.3C660.211 781.3 640.034 801.477 640.034 826.367C640.034 851.257 660.211 871.434 685.101 871.434Z" fill="#BABABA"/>
-    <path d="M669.501 783.9L667.334 867.534" stroke="#A0A0A0" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M701.134 783.9L698.968 867.534" stroke="#A0A0A0" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M642.201 840.667L725.834 842.833" stroke="#A0A0A0" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M642.201 809.034L725.834 811.2" stroke="#A0A0A0" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M669.501 783.9L667.334 867.534" stroke="#A0A0A0" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M701.134 783.9L698.968 867.534" stroke="#A0A0A0" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M642.201 840.667L725.834 842.833" stroke="#A0A0A0" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M642.201 809.034L725.834 811.2" stroke="#A0A0A0" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     <path d="M862.333 742.734C862.333 742.734 783.033 740.134 730.167 724.967C677.733 709.8 783.467 765.7 862.333 770.9C941.2 776.1 862.333 742.734 862.333 742.734Z" fill="#E8E8E8"/>
-    <path d="M678.167 674.7C678.167 674.7 597.134 673.4 530.4 623.134" stroke="white" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M620.534 807.3C620.534 807.3 554.667 789.967 490.1 737.967" stroke="white" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M678.167 674.7C678.167 674.7 597.134 673.4 530.4 623.134" stroke="white" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M620.534 807.3C620.534 807.3 554.667 789.967 490.1 737.967" stroke="white" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </g>
 }
 const circleEarring = (alone:boolean) => {
@@ -182,7 +182,7 @@ const cap = (alone:boolean) => {
     <path d="M756.683 242.764C782.683 242.764 803.916 263.998 803.916 289.998C803.916 315.998 782.683 337.231 756.683 337.231C730.683 337.231 709.45 315.998 709.45 289.998C709.45 263.998 730.683 242.764 756.683 242.764ZM756.683 238.431C728.083 238.431 705.116 261.398 705.116 289.998C705.116 318.598 728.083 341.564 756.683 341.564C785.283 341.564 808.25 318.598 808.25 289.998C808.25 261.398 784.85 238.431 756.683 238.431Z" fill="#4C4C4C"/>
     <path d="M567.75 479.364C567.75 479.364 412.617 488.031 336.35 483.698C332.017 483.264 332.017 479.798 332.017 475.464L332.45 467.664C332.45 467.664 324.217 469.831 320.75 481.098C319.017 487.164 317.717 501.898 318.15 510.998C318.583 516.631 322.483 521.398 328.117 522.264C353.25 526.598 437.75 536.998 550.417 522.698C550.417 522.264 565.15 497.564 567.75 479.364Z" fill="#332E2E"/>
     <path d="M990.25 451.631C972.05 437.764 944.75 429.531 907.483 439.064C886.25 444.698 861.117 455.964 832.517 475.031C692.55 569.931 550.417 522.264 550.417 522.264C550.417 522.264 554.75 501.031 570.35 475.031C593.317 436.897 640.983 388.364 736.75 382.297C820.817 377.097 882.783 393.131 924.817 411.331C966.417 429.531 988.083 449.464 990.25 451.631Z" fill="white"/>
-    <path d="M570.351 475.031C593.317 436.897 640.984 388.364 736.751 382.297C820.817 377.097 882.784 393.131 924.817 411.331" stroke="#E8E7E6" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M570.351 475.031C593.317 436.897 640.984 388.364 736.751 382.297C820.817 377.097 882.784 393.131 924.817 411.331" stroke="#E8E7E6" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </g>
 }
 
@@ -196,9 +196,9 @@ const roundedGlasses = (alone:boolean) => {
         <path opacity="0.23" d="M749.817 513.02L592.517 672.054C612.45 694.154 640.617 707.587 671.817 707.587C732.05 707.587 781.45 657.754 783.183 595.787C784.05 563.287 771.05 533.82 749.817 513.02Z" fill="#C4ADD8"/>
         <path opacity="0.29" d="M928.783 482.687C882.416 482.687 843.416 533.82 841.683 596.22C840.816 621.354 846.449 644.32 855.983 662.954L993.349 526.887C979.049 500.02 955.649 482.687 928.783 482.687Z" fill="#DBC3ED"/>
         <path opacity="0.23" d="M993.349 526.453L855.982 662.52C870.282 689.82 893.682 707.586 920.982 707.586C966.482 707.586 1005.48 657.753 1008.08 595.786C1008.95 570.22 1003.32 545.953 993.349 526.453Z" fill="#C4ADD8"/>
-        <path d="M783.182 596.22C781.882 658.187 732.049 708.02 671.816 708.02C611.582 708.02 563.482 658.187 563.482 596.22C563.916 533.82 613.749 482.687 674.849 482.687C735.949 482.687 784.916 533.82 783.182 596.22Z" stroke="#4EC2DD" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M1008.08 596.22C1005.48 658.187 966.483 708.02 920.983 708.02C875.483 708.02 839.949 658.187 841.683 596.22C843.416 533.82 882.416 482.687 928.783 482.687C975.149 482.687 1010.68 533.82 1008.08 596.22Z" stroke="#4EC2DD" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M564.783 584.087H503.25" stroke="#4EC2DD" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M783.616 584.087C783.616 584.087 835.182 564.153 841.682 584.087" stroke="#4EC2DD" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M783.182 596.22C781.882 658.187 732.049 708.02 671.816 708.02C611.582 708.02 563.482 658.187 563.482 596.22C563.916 533.82 613.749 482.687 674.849 482.687C735.949 482.687 784.916 533.82 783.182 596.22Z" stroke="#4EC2DD" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M1008.08 596.22C1005.48 658.187 966.483 708.02 920.983 708.02C875.483 708.02 839.949 658.187 841.683 596.22C843.416 533.82 882.416 482.687 928.783 482.687C975.149 482.687 1010.68 533.82 1008.08 596.22Z" stroke="#4EC2DD" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M564.783 584.087H503.25" stroke="#4EC2DD" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
+        <path d="M783.616 584.087C783.616 584.087 835.182 564.153 841.682 584.087" stroke="#4EC2DD" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </g>
 }

@@ -38,7 +38,7 @@ const angry = (alone:boolean) => {
 const cute = (alone:boolean) => {
     const transform =alone?"scale(4) translate(-640,-620)":""
     return <g transform={transform} mask="url(#mask0_26_635)">
-    <path d="M809.297 750.856C809.297 750.856 820.564 744.789 826.631 755.189C832.697 765.589 817.964 777.289 817.964 777.289C817.964 777.289 834.431 789.423 823.164 804.589C814.064 816.723 800.198 815.856 800.198 815.856" stroke="#170E0E" stroke-width="13" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M809.297 750.856C809.297 750.856 820.564 744.789 826.631 755.189C832.697 765.589 817.964 777.289 817.964 777.289C817.964 777.289 834.431 789.423 823.164 804.589C814.064 816.723 800.198 815.856 800.198 815.856" stroke="#170E0E" strokeWidth="13" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
     </g>
 }
 
